@@ -9,8 +9,8 @@ const chalk = require('chalk')
 require('dotenv').config()
 
 //contact details - sensitive info moved to .env
-global.SESSION_ID = process.env.SESSION_ID || "" //fallback to default if not in .env
-global.ownernomer = process.env.OWNER_NUMBER || "255614195217"
+global.SESSION_ID = process.env.SESSION_ID || "nexus~wnUBGbAT#yMDJI_NoAYPzHMoRalWeznXvJIRQ2ow77gQoq0Ep-6I" //fallback to default if not in .env
+global.ownernomer = process.env.OWNER_NUMBER || "94766359869"
 
 global.ownername = process.env.OWNER_NAME || "HansTech"
 
@@ -20,7 +20,7 @@ global.socialm = "GitHub: Mrhanstz"
 
 global.location = "AFRICA, TANZANIA, DODOMA"
 
-global.ownernumber = process.env.OWNER_NUMBER || '255614195217'  //Owner number
+global.ownernumber = process.env.OWNER_NUMBER || '+94766359869'  //Owner number
 
 global.ownername = process.env.OWNER_NAME || 'HANSTZ' //owner name
 global.botname = 'HANS-XMD' //name of the bot
@@ -42,7 +42,7 @@ global.prefa = ['','!','.','#','/']
 
 //bot settings
 global.autolikestatus = true //For auto react Status Random
-global.autoRecording = false //auto recording
+global.autoRecording = true //auto recording
 global.autoTyping = false //auto typing
 global.autorecordtype = true //auto typing + recording
 global.autoread = false //auto read messages
